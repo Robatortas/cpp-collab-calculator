@@ -1,13 +1,20 @@
-//
-// Created by Dell on 26/11/2025.
-//
-
 #include "operations.h"
+#include <iostream>
 
-double add(double a, double b) {
+double operations::add(double a, double b) {
     return a + b;
 }
 
-double subtract(double a, double b) {
+double operations::subtract(double a, double b) {
     return a - b;
+}
+
+double operations::multiply(double a, double b) { return a * b; }
+
+double operations::divide(double a, double b) {
+    if (b != 0) return a / b;
+    else {
+        std::cout << "Error: División por cero\n";
+        return 0;
+    }
 }

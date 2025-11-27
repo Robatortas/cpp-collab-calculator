@@ -1,12 +1,13 @@
-//
-// Created by Dell on 26/11/2025.
-//
-
+#pragma once
 #ifndef GITHUBOOP_OPERATIONS_H
 #define GITHUBOOP_OPERATIONS_H
 
-double add(double a, double b);
-double subtract(double a, double b);
+class operations {
+    public:
+    double add(double a, double b);
+    double subtract(double a, double b);
 
-
-#endif //GITHUBOOP_OPERATIONS_H
+    double multiply(double a, double b);
+    double divide(double a, double b);
+};
+#endif
