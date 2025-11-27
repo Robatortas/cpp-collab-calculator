@@ -1,5 +1,17 @@
-#include <iostream>
 #include "operations.h"
+#include <iostream>
+
+double operations::add(double a, double b) {
+    return a + b;
+}
+
+double operations::subtract(double a, double b) {
+    return a - b;
+}
+
+double squareRoot(double a) {
+    return sqrt(a);
+}
 
 double operations::multiply(double a, double b) { return a * b; }
 
