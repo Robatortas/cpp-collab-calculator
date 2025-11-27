@@ -5,12 +5,11 @@
 
 class operations {
     public:
-    double add(double a, double b);
-    double subtract(double a, double b);
-
-    double multiply(double a, double b);
-    double divide(double a, double b);
-    double pow(double base, int exponent);
-    double squareRoot(double a)
+        static double add(double a, double b);
+        static double subtract(double a, double b);
+        static double multiply(double a, double b);
+        static double divide(double a, double b);
+        static double pow(double base, int exponent);
+        static double squareRoot(double a);
 };
 #endif
