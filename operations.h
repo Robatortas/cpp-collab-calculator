@@ -10,6 +10,7 @@ class operations {
 
     double multiply(double a, double b);
     double divide(double a, double b);
+    double pow(double base, int exponent);
     double squareRoot(double a)
 };
 #endif

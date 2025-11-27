@@ -22,3 +22,11 @@ double operations::divide(double a, double b) {
         return 0;
     }
 }
+
+double power(double base, int exponent) {
+    double result = 1.0;
+    for (int i = 0; i < exponent; i++) {
+        result *= base;
+    }
+    return result;
+}
