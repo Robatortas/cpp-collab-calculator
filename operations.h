@@ -1,6 +1,7 @@
 #pragma once
 #ifndef GITHUBOOP_OPERATIONS_H
 #define GITHUBOOP_OPERATIONS_H
+#include <cmath>
 
 class operations {
     public:
@@ -9,5 +10,6 @@ class operations {
 
     double multiply(double a, double b);
     double divide(double a, double b);
+    double squareRoot(double a)
 };
 #endif

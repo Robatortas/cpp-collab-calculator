@@ -9,6 +9,10 @@ double operations::subtract(double a, double b) {
     return a - b;
 }
 
+double squareRoot(double a) {
+    return sqrt(a);
+}
+
 double operations::multiply(double a, double b) { return a * b; }
 
 double operations::divide(double a, double b) {
